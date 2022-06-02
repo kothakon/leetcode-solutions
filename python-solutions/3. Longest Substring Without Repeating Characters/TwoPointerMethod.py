@@ -1,3 +1,13 @@
+# Runtime Complexity: O(N)
+# Spacetime Complexity: O(26) ~ O(1)
+
+# Two pointer method/one-pass linear solution
+# 1) iterate through string with right pointer
+# 2) add character at pointer to a hashmap if character isn't currently in the hashmap
+# 3) if character at index is in hashmap, remove character at left pointer and increment left pointer
+#    until seen character is removed.
+# 4) update length varaible
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         
