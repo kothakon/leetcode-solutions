@@ -1,4 +1,6 @@
-
+# Time Complexity: O(N) Have to iterate through string and construct output string
+# Space Complexity: O(N) for array and returned string 
+# Use List of lists where each inner list corresponds to a row to store characters. Use index and boolean to track insertion of charaacters into list.
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         # edge case if number of rows is 1
