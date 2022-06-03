@@ -1,3 +1,5 @@
+# Time Complexity: O(1)- technically constant time
+# Space Complexity: O(1) - technically constant time
 
 class Solution:
     def intToRoman(self, num: int) -> str:
